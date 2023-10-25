@@ -1,0 +1,156 @@
+#la {
+  background-color: white;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  margin-right: 5% !important;
+  margin-left: -7% !important;
+
+}
+
+
+
+.navbar .lang {
+  text-decoration: none;
+  color: #1E2329;
+  font-size: 14px;
+  
+}
+
+
+
+.navbar .lang:hover{
+  color: #F0B90B;
+
+}
+
+.navbar img {
+  width: 120px;
+
+}
+
+
+
+
+.main {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+}
+
+.footer p {
+  font-size: 12px;
+}
+
+.lines {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 30px;
+  height: 30px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.lines div {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  background-color: #F0B90B;
+  height: 100%;
+  width: 3px;
+}
+
+
+.line2 {
+  -webkit-animation: animation-load 1.2s infinite ease-in-out;
+  animation: animation-load 1.2s infinite ease-in-out;
+  -webkit-animation-delay: -0.3s;
+  animation-delay: -0.3s;
+}
+
+.line3 {
+  -webkit-animation: animation-load 1.2s infinite ease-in-out;
+  animation: animation-load 1.2s infinite ease-in-out;
+  -webkit-animation-delay: -0.2s;
+  animation-delay: -0.2s;
+}
+
+.line4 {
+  -webkit-animation: animation-load 1.2s infinite ease-in-out;
+  animation: animation-load 1.2s infinite ease-in-out;
+  -webkit-animation-delay: -0.1s;
+  animation-delay: -0.1s;
+}
+
+.line5 {
+  -webkit-animation: animation-load 1.2s infinite ease-in-out;
+  animation: animation-load 1.2s infinite ease-in-out;
+  -webkit-animation-delay: -0s;
+  animation-delay: -0s;
+}
+
+@keyframes animation-load {
+
+  0%,
+  40%,
+  100% {
+      -webkit-transform: scaleY(0.4);
+      -ms-transform: scaleY(0.4);
+      transform: scaleY(0.4);
+  }
+
+  20% {
+      -webkit-transform: scaleY(1.0);
+      -ms-transform: scaleY(1.0);
+      transform: scaleY(1.0);
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+    #la {
+      background-color: white;
+      display: grid;
+      grid-template-rows: auto 1fr auto;
+      margin-right: 5% !important;
+      margin-left: -7% !important;
+
+    }
+    
+    
+    
+    .navbar .lang {
+      text-decoration: none;
+      color: #1E2329;
+      font-size: 14px !important;
+
+      margin-top: -3% !important;
+    }
+    
+    
+    
+    .navbar .lang:hover{
+      color: #F0B90B;
+    
+    }
+    
+    .navbar img {
+      width: 120px;
+    
+    }
+}

@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    line-height: 1.4;
+    padding: 15px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    min-height: 100vh; /* Ensure it takes up at least the full viewport height */
+}
+
+
+.positivus {
+    border: 1px solid #cccccc;
+    border-radius: 10px;  
+    padding: 20px 30px 30px 30px;
+    max-width: 445px;
+    margin: 10px auto; /* Center horizontally by setting left and right margins to auto */
+}
+
+
+.googleImg{
+    display: block;
+    width: 120px; 
+    margin: auto
+}
+
+.positHeading{
+    text-align: center;
+    margin: -15px 0 10px 0;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: Google Sans,Noto Sans Myanmar UI,arial,sans-serif;
+}
+
+.positPara{
+    text-align: center; 
+    max-width: 350px; 
+    margin: auto;
+    font-size: 16.0px; 
+    font-family: Google Sans,Noto Sans Myanmar UI,arial,sans-serif;
+}
+
+.positContent{
+    margin: 10px auto 0 auto; 
+    width: fit-content; 
+    position: relative
+}
+
+#email-display{
+    -webkit-appearance: none;
+    border-radius: 40px; 
+    border: 1px solid #cccccc; 
+    width: 100%; 
+    max-width: 280px; 
+    font-weight: 550; 
+    margin: auto; 
+    padding: 8px 8px 8px 32px; 
+    display: block; 
+    color: black; 
+    font-size: 14px;
+}
+
+.positContentImg{
+    position: absolute;
+    top: 0;
+    left: 8px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.positRoot{
+    text-align: center;
+    font-size: 44px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.checkPhone{
+    font-size: 16.4px; 
+    font-weight: 500; 
+    margin-bottom: 10px; 
+    font-family: Google Sans,Noto Sans Myanmar UI,arial,sans-serif;
+}
+
+.notification{
+    display: inline; 
+    font-size: 16.0px; 
+    font-family: Google Sans,Noto Sans Myanmar UI,arial,sans-serif;
+}
+
+#root1{
+    display: inline-block; 
+    font-size: 16.0px; 
+    font-family: Google Sans,Noto Sans Myanmar UI,arial,sans-serif;
+}
+
+.positInput{
+    margin-top: 10px;
+}
+.checkedbox{
+    margin: 0; 
+    font-size: 16.0px; 
+    font-family: Google Sans,Noto Sans Myanmar UI,arial,sans-serif;
+}
+
+.inputSpan{
+    margin-left: 10px; 
+    font-size: 14.4px; 
+    font-family: Google Sans,Noto Sans Myanmar UI,arial,sans-serif;
+}
+
+.resetDiv{
+    margin: 50px 0;
+}
+
+.resendbtn{
+    color: #0090fc !important;
+    text-decoration: none !important;
+    font-weight: 600;
+    font-size: 13.8px;
+    font-family: Google Sans,Noto Sans Myanmar UI,arial,sans-serif;
+}
+
+.try{
+    margin-bottom: 20px;
+}
+
+.trybtn{
+    color: #0090fc !important;
+    text-decoration: none !important;
+    font-weight: 550;
+    font-size: 13.8px;
+    font-family: roboto,Noto Sans Myanmar UI,arial,sans-serif;
+}
+
+.footer{
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 445px;
+    margin: auto;
+}
+
+.footerleft1{
+    color: black !important;
+    text-decoration: none !important;
+    margin-left: 15px;
+}
+
+@media screen and (max-width: 768px) {
+    .positivus {
+      border-radius: 2px !important;
+      border: 1px solid #cccccc;
+      padding: 15px 15px 150px 15px !important;
+      border: none !important;
+    }
+    
+    .googleImg {
+      margin-top: -15px !important;
+    }
+  }
